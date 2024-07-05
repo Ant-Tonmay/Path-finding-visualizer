@@ -59,3 +59,13 @@ export const getRandInt = (min :number, max :number)=>{
     max = Math.floor(max)
     return Math.floor(Math.random() * (max - min)+ min);
 }
+
+export const dropFromQueue = (tile:TileType , queue:TileType[])=>{
+
+    for (let i=0; i<queue.length; i++){
+        if(!isEqual(tile, queue[i])){
+            queue.slice(i,1);
+            return;
+        }
+    }
+}
