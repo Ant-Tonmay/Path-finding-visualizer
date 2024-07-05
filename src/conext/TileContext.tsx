@@ -1,6 +1,6 @@
-import { Children, createContext, useState } from "react";
+import {createContext, useState } from "react";
 import { TileType } from "../utils/types";
-import { END_TILE_CONF, MAX_ROWS, START_TILE_CONF } from "../utils/constanst";
+import { END_TILE_CONF, START_TILE_CONF } from "../utils/constanst";
 
 interface TileContextInterface {
     startTile: TileType;

@@ -1,4 +1,3 @@
-import { Grid } from "../components/Grid";
 import { END_TILE_CONF, MAX_COLS, MAX_ROWS, START_TILE_CONF, TILE_STYLE } from "./constanst";
 import { isEqual } from "./helper";
 import { GridType, TileType } from "./types";

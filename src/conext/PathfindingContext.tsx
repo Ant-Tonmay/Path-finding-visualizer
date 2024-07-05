@@ -1,4 +1,4 @@
-import { Children, createContext, ReactNode, useState } from "react";
+import {createContext, ReactNode, useState } from "react";
 import { AlgorithmType, GridType, MazeType } from "../utils/types";
 import { createGrid } from "../utils/helper";
 import { END_TILE_CONF, START_TILE_CONF } from "../utils/constanst";

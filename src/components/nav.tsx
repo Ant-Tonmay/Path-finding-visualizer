@@ -1,7 +1,7 @@
 import { EXTENDED_SLEEP_TIME, MAZES, PATHFINDING_ALOGRITHMS, SLEEP_TIME, SPEEDS } from "../utils/constanst";
 import { Select } from "./select";
 import { usePathfinding } from "../hooks/usePathfinding";
-import { AlgorithmSelectType, AlgorithmType, MazeType, SpeedType } from "../utils/types";
+import {AlgorithmType, MazeType, SpeedType } from "../utils/types";
 import { resetGrid } from "../utils/resetGrid";
 import { useTile } from "../hooks/useTIle";
 import { MutableRefObject, useState } from "react";
