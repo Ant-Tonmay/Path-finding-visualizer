@@ -1,4 +1,5 @@
 
+import { astar } from "../lib/algorithms/graph_algo/astar";
 import { bfs } from "../lib/algorithms/graph_algo/bfs";
 import { dfs } from "../lib/algorithms/graph_algo/dfs";
 import { dijsktra } from "../lib/algorithms/graph_algo/dijkstra";
@@ -21,6 +22,8 @@ export const runPathFindingAlgo = ({
             return dfs(grid,startTile,endTile)
         case 'DIJKSTRA':
             return dijsktra(grid,startTile,endTile)
+        case 'ASTAR':
+            return astar(grid,startTile,endTile)
         default:
             return bfs(grid,startTile,endTile)
     }

@@ -1,6 +1,5 @@
 import { getUnseenNeighbors } from "../../../utils/getUnseenNeighbours";
 import { dropFromQueue, isEqual } from "../../../utils/helper";
-import { isInQueue } from "../../../utils/IsInQueue";
 import { GridType, TileType } from "../../../utils/types";
 
 export const dijsktra = (grid:GridType,startTile:TileType,endTile:TileType)=>{
